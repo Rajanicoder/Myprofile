@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Testimonial file  */
+.containertitle h1{
+    transition: all 1s ease-in-out 0s;
+    animation: title 1s ease-in-out 0s infinite alternate ;
+    position: relative;
+}
+@keyframes title{
+    from{
+        /* background-color: blue; */
+        left: 50px;
+        font-size: 30px;
+        /* width: 50%;
+        height: 50px;
+        color: white; */
+    }
+    to{
+       /* background-color: red;  */
+       /* width: 100%;
+       height: 75px;
+       color: whitesmoke; */
+       right: 50px;
+       font-size: 40px;
+    }
+}
+.containeroption h1{
+    transition: all 1s ease-in-out 0s;
+    animation: optioni 1s ease-in-out 0s infinite alternate ;
+    position: relative; 
+}
+@keyframes optioni{
+    from{
+ background-color: blue;
+ color: red;
+    } to{
+ background-color: gray;
+ color: white;
+    }
+}
+.containeroption p{
+    background-color: pink;
+}
+.containeroption p:hover{
+    background-color: aquamarine;
+    color: coral;
+    font-weight: 700;
+}
+.containerimg{
+    background: url("images/pexels-photo-2599244.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+   font-weight: bold;
+   font-size: 20px;
+}
+.containertesti{
+    transition:all 1s linear 0s;
+    background-color: red;
+}
+.containertesti:hover{
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: blue;
+}
+.containertesti img{
+    transition:all 1s linear 0s;
+    
+}
+.containertesti img:hover{
+   
+    transform: scale(0.5);
+
+    opacity: 0.5;
+}
+.containertesti h1 i{
+    transition:all 1s linear 0s;
+}
+.containertesti h1 i:hover{
+   
+    transform: rotate(360deg);
+    background-color: rgb(156, 19, 19);
+    border-radius: 50%;
+}
+.containertesti h1{
+    transition:all 1s linear 0s; 
+}
+.containertesti h1 :hover{
+    transform: translate(25px);
+}
+/* end testimonial  */
+/* facilities start  */
+.containerfacilities h1{
+    transition:all 1s linear 0s;
+    animation: facilities 1s ease-in-out 0s infinite alternate ;
+    position: relative;
+}
+@keyframes facilities{
+    from{
+         background-color: blueviolet;
+         color: yellow;
+         top:5px;
+         left: 30px;
+         width: 50%; 
+        
+
+    }
+    to{
+  background-color: chocolate;
+  color: white;
+  bottom: 5px;
+  right: 30px;
+  width: 100%;
+
+    }
+}
+.containerfacilities p{
+    background-color: blueviolet;
+    color: red;
+}
+.containeraviable h1{
+    transition:all 1s linear 0s;
+}
+.containeraviable h1:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 800;
+}
+.containeraviable p:hover{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.containercourse .card-body{
+    transition:all 1s linear 0s; 
+}
+.containercourse .card-body:hover{
+    background-color: rgb(26, 206, 95);
+    color: red;
+    
+}
+/* end facilities  */
+/* start campus  */
+.containercampus h1{
+    transition:all 1s linear 0s;  
+    animation: campus 1s ease-in-out 0s infinite alternate ;
+    position: relative;
+}
+@keyframes campus{
+    from{
+      font-size: 10px;
+      background-color: red;
+      color: aliceblue;
+    }
+    to{
+     font-size: 50px;
+     background-color: brown;
+     color: fuchsia;
+    }
+}
+.containercardcampus .card-img-top{
+    transition:all 1s linear 0s; 
+    animation: cardcampus 1s ease-in-out 0s 3 alternate ;
+}
+@keyframes cardcampus{
+    from{
+       width: 0;
+    }
+    to{
+    width: 100%;
+    }
+}
+
+/* end campus  */
+
+/* start course  */
+.containeropenadmission h1{
+    transition:all 1s linear 0s; 
+    animation: addmission 1s ease-in-out 0s infinite alternate ;
+    position: relative;
+}
+@keyframes addmission{
+    from{
+      left: 0;
+      background-color: blue;
+    }
+    to{
+   right: 300px;
+   background-color: darksalmon;
+   color: white;
+    }
+}
+.containeroffers h1{
+    background-color: red;
+}
+.containeroffers h1:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+.containeroffers p:hover{
+    background-color: pink;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.containerbox .card-img-top{
+    transition:all 1s linear 0s; 
+    animation: routers 1s ease-in-out 0s 3 alternate ;
+    position: relative; 
+}
+@keyframes routers{
+    from{
+       transform: rotate(45deg);
+    }
+    to{
+ transform: rotate(360deg);
+    }
+}
+.containerbox .card-img-top:hover{
+    transform: scale(0.8);
+}
+.containerbox .card-body h5:hover{
+    background-color: blueviolet;
+    color: white;
+    font-size: 30px;
+}
+.containerbox .card-body  p:hover{
+    background-color: red;
+    color: white;
+}
+/* end course  */
+/* contact file  */
+
+.containerimg:hover{
+    opacity: 0.9;
+    color: blue;
+}
+.containercontact h1{
+    transition:all 1s linear 0s; 
+}
+.containercontact h1:hover{
+    font-size: 50px;
+    background-color:cyan ;
+    color: darkgrey;
+    font-weight: bold;
+}
+/* end contact file  */
+/* footer  */
+.containerlogo a i {
+    margin-left: 20px;
+    font-size: 30px;
+    transition:all 1s linear 0s; 
+}
+.containerlogo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.containerlogo a i:hover{
+    font-size: large;
+}
+/* index file  */
+.navbar .containerindexhead .navbar-brand {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
